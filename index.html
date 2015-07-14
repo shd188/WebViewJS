@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	var vv = function(){
+		window.location.href = 'https://www.baidu.com/';
+	};
+	
+	    function showAndroidToast(toast){
+        console.log("showAndroidToast method");
+        //注意此处的myInterfaceName要和外部传入的名字一致，大小写正确
+        myInterfaceName.showToast(toast);
+    };
+</script>
+</head>
+<body>
+Test
+<input type="button"
+            value="Say hello" onClick="showAndroidToast('https://www.baidu.com/img/bd_logo1.png')" />
+</body>
+</html>
